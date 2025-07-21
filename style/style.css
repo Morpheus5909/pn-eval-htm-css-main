@@ -2,4 +2,172 @@
     margin : 0;
     padding : 0;
     box-sizing: border-box;
+
+}
+
+@font-face {
+    font-family: "police texte";
+    src: url("./eval1.otf");
+}
+
+
+nav {
+
+width: 20%;
+height: 100vh;
+
+    display: flex;
+    flex-direction: column;
+    padding: 5%;
+    justify-content: top;
+     align-items: center;
+    background-color: black;
+    
+}
+
+#logo{
+
+width: 10vw;
+
+
+}
+
+
+
+
+#texte1 {
+
+    display: flex;
+    flex-direction:column;
+    justify-content: center;
+font-family:"police texte" ;
+box-shadow: 2px 2px 7px 0px;
+
+}
+
+
+#nav-button {
+
+    text-decoration: none;
+    display: block;
+
+    padding: 5px;
+
+    width : 20%;
+    margin : 20px;
+
+    text-align: center;
+    border-radius: 5px;
+    border: solid var(--couleur-claire) 2px;
+    transition: background-color 500ms, color 1000ms, border 1000ms;
+    
+
+
+}
+h1{
+
+color: rgb(247, 182, 4);
+font-family:"police texte"
+
+
+}
+
+h2{
+
+color: rgb(196, 177, 13);
+font-family:"police texte"
+}
+
+a{
+
+color: rgb(196, 177, 13);
+font-family:"police texte"
+
+}
+
+#texte2 {
+
+        display: flex;
+            flex-direction:column;
+            justify-content: center;
+        font-family:"police texte" ;
+        box-shadow: 2px 2px 7px 0px;
+
+
+}
+
+
+.nav-button:hover {
+    background-color: var(--couleur-midclaire);
+    color: var(--couleur-midfonce);
+    border: solid var(--couleur-midfonce) 2px;
+}
+
+
+
+#rangement{
+
+position : relative;
+   
+    width : 100vw;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: start;
+    flex-direction: row;
+
+
+
+}
+
+
+
+#image1{
+
+max-width: 20vw;
+margin-top: 10vh;
+float: right;
+margin: right 10px;
+margin-left: 5vh;
+
+
+}
+
+
+
+#image2{
+
+max-width: 20vw;
+float: right;
+margin-top: 10vh;
+margin-right: 30px;
+margin-left: 5vh;
+
+}
+
+
+article{
+
+    display: flex;
+    flex-direction: row;
+    justify-content: start;
+    align-items: start;
+
+    padding: 15px;
+    margin-bottom: 10px;
+    transition:transform 1000ms ;
+}
+
+main{
+    display: flex;
+    flex-direction: column;
+}
+
+p{
+    padding: 15px;
+}
+
+.p1{
+    justify-content: center;
+    padding: 10px;
 }
